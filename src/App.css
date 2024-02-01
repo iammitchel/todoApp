@@ -132,3 +132,18 @@ h1 {
 .edit-icon {
   color: #fff;
 }
+
+@media screen and (max-width: 600px) {
+  .todo-app {
+    width: 320px;
+  }
+  .todo-input{
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .todo-app {
+      width: 250px;
+    }
+}
